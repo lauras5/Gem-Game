@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://images.pexels.com/photos/153539/pexels-photo-153539.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+    background-color: bisque;
+    text-align: center;
+    color: dimgray;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.719);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h1, h3, .losses, .wins {
+    padding: 10px;
+    background-color: white;
+}
+
+.losses, .wins {
+    width: 30%;
+    display: inline-block;
+    margin: 10px 0 10px 0;
+}
+
+h3 {
+    color:rgb(167, 31, 54);
+    font-weight: 600;
+    width: 50%;
+    display: block;
+    margin: auto;
+
+}
+
+.gemSize {
+    height: 120px;
+    /* width: 200px; */
+    padding: 5px;
+    margin: 10px;
+}
+
+.gemSize:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+.resetBtn {
+    background-color: rgba(248, 46, 80, 0.842);
+    color: rgb(44, 44, 44);
+    padding: 10px;
+    margin: 10px;   
+}
+
+
