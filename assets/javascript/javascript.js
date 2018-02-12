@@ -2,7 +2,7 @@ $(document).ready(function() {
   var total = 0
   $("#myNum").text(total)
   var randNum = Math.floor( Math.random() * 100 )
-  $( "#numGuess" ).text( "Click the Gems to Match the Number : " + randNum )
+  $( "#numGuess" ).text( "Click the Gems to Match the Number Below!  " + randNum )
   var wins = 0
   $(".wins").text("WINS : " + wins)
   var losses = 0
@@ -11,7 +11,7 @@ $(document).ready(function() {
   //reset function
   function reset() {
     randNum = Math.floor(Math.random() * 100)
-    $( "#numGuess" ).text( "Click the Gems to Match the Number : " + randNum )
+    $( "#numGuess" ).text( "Click the Gems to Match the Number Below!  " + randNum )
     total = 0
     $("#myNum").text(total)
     // console.log("hello")
