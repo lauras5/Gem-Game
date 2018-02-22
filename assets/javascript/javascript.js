@@ -44,7 +44,7 @@ $(document).ready(function() {
     if(total === randNum) {
       alert("You Win!")
       wins++
-      $(".wins").push("WINS : " + wins)
+      $(".wins").text("WINS : " + wins)
       reset()
     }
 
