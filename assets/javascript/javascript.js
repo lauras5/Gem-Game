@@ -19,7 +19,7 @@ $(document).ready(function() {
     for ( var i = 0 ; i < 4; i++ ) {
       myImage.attr("src", "assets/images/gem.png")
       myImage.attr("class", "gemSize myGem") 
-      myImage.attr("data-gemValue", Math.floor( Math.random() * 10 ))
+      myImage.attr("data-gemValue", Math.ceil( Math.random() * 10 ))
       $("#gems").append(myImage)
     }
   }
@@ -33,7 +33,7 @@ $(document).ready(function() {
     var myImage = $("<img>")
     myImage.attr("src", "assets/images/gem.png")
     myImage.attr("class", "gemSize myGem")
-    myImage.attr("data-gemValue", Math.floor( Math.random() * 10 ) )
+    myImage.attr("data-gemValue", Math.ceil( Math.random() * 10 ) )
     $("#gems").append(myImage)
   }
   
